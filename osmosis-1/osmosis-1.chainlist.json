@@ -116,7 +116,10 @@
           "tx_page": "https://www.mintscan.io/osmosis/txs/${txHash}"
         }
       ],
-      "features": ["ibc-go", "ibc-transfer"]
+      "features": [
+        "ibc-go",
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "terra",
@@ -300,7 +303,10 @@
           "tx_page": "https://finder.terra.money/columbus-5/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "terra-classic-fee"]
+      "features": [
+        "ibc-transfer",
+        "terra-classic-fee"
+      ]
     },
     {
       "chain_name": "secretnetwork",
@@ -318,7 +324,9 @@
         "bech32PrefixConsPub": "secretvalconspub"
       },
       "slip44": 529,
-      "alternative_slip44s": [118],
+      "alternative_slip44s": [
+        118
+      ],
       "fees": {
         "fee_tokens": [
           {
@@ -412,7 +420,10 @@
           "tx_page": "https://www.mintscan.io/akash/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "regen",
@@ -465,7 +476,9 @@
           "tx_page": "https://regen.aneka.io/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "sentinel",
@@ -518,7 +531,10 @@
           "tx_page": "https://www.mintscan.io/sentinel/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "persistence",
@@ -536,7 +552,9 @@
         "bech32PrefixConsPub": "persistencevalconspub"
       },
       "slip44": 118,
-      "alternative_slip44s": [750],
+      "alternative_slip44s": [
+        750
+      ],
       "fees": {
         "fee_tokens": [
           {
@@ -576,7 +594,10 @@
           "tx_page": "https://www.mintscan.io/persistence/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "irisnet",
@@ -628,7 +649,9 @@
           "tx_page": "https://www.mintscan.io/iris/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "cryptoorgchain",
@@ -646,7 +669,9 @@
         "bech32PrefixConsPub": "crovalconspub"
       },
       "slip44": 394,
-      "alternative_slip44s": [118],
+      "alternative_slip44s": [
+        118
+      ],
       "fees": {
         "fee_tokens": [
           {
@@ -682,7 +707,9 @@
           "tx_page": "https://www.mintscan.io/crypto-org/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "starname",
@@ -700,7 +727,9 @@
         "bech32PrefixConsPub": "starvalconspub"
       },
       "slip44": 234,
-      "alternative_slip44s": [118],
+      "alternative_slip44s": [
+        118
+      ],
       "fees": {
         "fee_tokens": [
           {
@@ -736,7 +765,9 @@
           "tx_page": "https://www.mintscan.io/starname/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "emoney",
@@ -818,7 +849,9 @@
           "tx_page": "https://emoney.bigdipper.live/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "juno",
@@ -879,7 +912,12 @@
           "tx_page": "https://www.mintscan.io/juno/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "cosmwasm",
+        "wasmd_0.24+"
+      ]
     },
     {
       "chain_name": "microtick",
@@ -928,7 +966,9 @@
           "tx_page": "https://explorer.microtick.zone/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "likecoin",
@@ -984,7 +1024,10 @@
           "tx_page": "https://likecoin.bigdipper.live/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "impacthub",
@@ -1037,7 +1080,9 @@
           "tx_page": "https://blockscan.ixo.world/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "bitcanna",
@@ -1090,7 +1135,10 @@
           "tx_page": "https://www.mintscan.io/bitcanna/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "bitsong",
@@ -1144,7 +1192,10 @@
           "tx_page": "https://explorebitsong.com/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "kichain",
@@ -1197,7 +1248,12 @@
           "tx_page": "https://www.mintscan.io/ki-chain/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "cosmwasm",
+        "wasmd_0.24+"
+      ]
     },
     {
       "chain_name": "panacea",
@@ -1250,7 +1306,9 @@
           "tx_page": "https://www.mintscan.io/medibloc/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "bostrom",
@@ -1302,7 +1360,9 @@
           "tx_page": "https://cyb.ai/network/bostrom/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "comdex",
@@ -1355,7 +1415,9 @@
           "tx_page": "https://www.mintscan.io/comdex/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "cheqd",
@@ -1408,7 +1470,9 @@
           "tx_page": "https://explorer.cheqd.io/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "stargaze",
@@ -1462,7 +1526,9 @@
           "tx_page": "https://www.mintscan.io/stargaze/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "chihuahua",
@@ -1515,7 +1581,10 @@
           "tx_page": "https://ping.pub/chihuahua/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "lumnetwork",
@@ -1568,7 +1637,10 @@
           "tx_page": "https://www.mintscan.io/lum/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "vidulum",
@@ -1618,7 +1690,10 @@
           "tx_page": "https://explorers.vidulum.app/vidulum/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "desmos",
@@ -1671,7 +1746,10 @@
           "tx_page": "https://explorer.desmos.network/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "dig",
@@ -1723,7 +1801,10 @@
           "tx_page": "https://ping.pub/dig/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "sommelier",
@@ -1773,7 +1854,10 @@
           "tx_page": "https://www.mintscan.io/sommelier/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "sifchain",
@@ -1825,7 +1909,9 @@
           "tx_page": "https://www.mintscan.io/sifchain/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "bandchain",
@@ -1875,7 +1961,9 @@
           "tx_page": "https://cosmoscan.io/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "konstellation",
@@ -1925,7 +2013,9 @@
           "tx_page": "https://www.mintscan.io/konstellation/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "umee",
@@ -1978,7 +2068,9 @@
           "tx_page": "https://www.mintscan.io/umee/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "gravitybridge",
@@ -2044,7 +2136,10 @@
           "tx_page": "https://www.mintscan.io/gravity-bridge/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "decentr",
@@ -2094,7 +2189,9 @@
           "tx_page": "https://explorer.decentr.net/transactions/${txHash}?networkId=mainnet"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "shentu",
@@ -2146,7 +2243,10 @@
           "tx_page": "https://www.mintscan.io/shentu/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "carbon",
@@ -2445,7 +2545,10 @@
           "tx_page": "https://scan.carbon.network/transaction/${txHash}?net=main"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "injective",
@@ -2499,7 +2602,12 @@
           "tx_page": "https://explorer.injective.network/transaction/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     },
     {
       "chain_name": "cerberus",
@@ -2549,7 +2657,10 @@
           "tx_page": "https://skynetexplorers.com/Cerberus/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "fetchhub",
@@ -2601,7 +2712,10 @@
           "tx_page": "https://www.mintscan.io/fetchai/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "assetmantle",
@@ -2654,7 +2768,10 @@
           "tx_page": "https://www.mintscan.io/asset-mantle/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "provenance",
@@ -2707,7 +2824,10 @@
           "tx_page": "https://www.mintscan.io/provenance/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "galaxy",
@@ -2759,7 +2879,10 @@
           "tx_page": "https://explorer.postcapitalist.io/galaxy/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "meme",
@@ -2812,7 +2935,10 @@
           "tx_page": "https://explorer.meme.sx/meme/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "evmos",
@@ -2866,7 +2992,12 @@
           "tx_page": "https://www.mintscan.io/evmos/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     },
     {
       "chain_name": "terra2",
@@ -2920,7 +3051,11 @@
           "tx_page": "https://finder.terra.money/phoenix-1/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "cosmwasm", "wasmd_0.24+"]
+      "features": [
+        "ibc-transfer",
+        "cosmwasm",
+        "wasmd_0.24+"
+      ]
     },
     {
       "chain_name": "rizon",
@@ -2972,7 +3107,10 @@
           "tx_page": "https://www.mintscan.io/rizon/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "kava",
@@ -2990,7 +3128,9 @@
         "bech32PrefixConsPub": "kavavalconspub"
       },
       "slip44": 459,
-      "alternative_slip44s": [118],
+      "alternative_slip44s": [
+        118
+      ],
       "fees": {
         "fee_tokens": [
           {
@@ -3026,7 +3166,10 @@
           "tx_page": "https://www.mintscan.io/kava/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "genesisl1",
@@ -3078,7 +3221,10 @@
           "tx_page": "https://ping.pub/genesisL1/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "kujira",
@@ -3132,7 +3278,10 @@
           "tx_page": "https://finder.kujira.app/kaiyo-1/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "tgrade",
@@ -3185,7 +3334,12 @@
           "tx_page": "https://tgrade.aneka.io/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "cosmwasm",
+        "wasmd_0.24+"
+      ]
     },
     {
       "chain_name": "echelon",
@@ -3237,7 +3391,10 @@
           "tx_page": "https://ping.pub/echelon/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "odin",
@@ -3290,7 +3447,12 @@
           "tx_page": "https://scan.odinprotocol.io/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "cosmwasm",
+        "wasmd_0.24+"
+      ]
     },
     {
       "chain_name": "crescent",
@@ -3343,7 +3505,10 @@
           "tx_page": "https://www.mintscan.io/crescent/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "lumenx",
@@ -3396,7 +3561,10 @@
           "tx_page": "https://ping.pub/lumenx/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "oraichain",
@@ -3449,7 +3617,10 @@
           "tx_page": "https://scan.orai.io/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "cudos",
@@ -3501,7 +3672,10 @@
           "tx_page": "https://explorer.cudos.org/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "agoric",
@@ -3519,7 +3693,9 @@
         "bech32PrefixConsPub": "agoricvalconspub"
       },
       "slip44": 564,
-      "alternative_slip44s": [118],
+      "alternative_slip44s": [
+        118
+      ],
       "fees": {
         "fee_tokens": [
           {
@@ -3561,7 +3737,10 @@
           "tx_page": "https://agoric.bigdipper.live/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "stride",
@@ -3741,7 +3920,10 @@
           "tx_page": "https://explorer.stride.zone/stride/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "rebus",
@@ -3791,7 +3973,10 @@
           "tx_page": "https://rebus.explorers.guru/transaction/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "teritori",
@@ -3843,7 +4028,10 @@
           "tx_page": "https://explorer.teritori.com/teritori/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "lambda",
@@ -3895,7 +4083,12 @@
           "tx_page": "https://explorer.nodestake.top/lambda/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     },
     {
       "chain_name": "unification",
@@ -3951,7 +4144,10 @@
           "tx_page": "https://explorer.unification.chainmasters.ninja/unification/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "jackal",
@@ -4004,7 +4200,10 @@
           "tx_page": "https://ping.pub/jackal/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "beezee",
@@ -4054,7 +4253,10 @@
           "tx_page": "https://explorer.thesilverfox.pro/beezee/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "acrechain",
@@ -4107,7 +4309,12 @@
           "tx_page": "https://cosmosrun.info/acre-mainnet/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     },
     {
       "chain_name": "imversed",
@@ -4160,7 +4367,12 @@
           "tx_page": "https://txe.imversed.network/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     },
     {
       "chain_name": "medasdigital",
@@ -4212,7 +4424,10 @@
           "tx_page": "https://www.mintscan.io/medasdigital/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "onomy",
@@ -4264,7 +4479,10 @@
           "tx_page": "https://www.mintscan.io/onomy-protocol/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "planq",
@@ -4317,7 +4535,12 @@
           "tx_page": "https://ping.pub/planq/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     },
     {
       "chain_name": "dyson",
@@ -4369,7 +4592,10 @@
           "tx_page": "https://explorer.dys.dysonprotocol.com/dyson/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "mars",
@@ -4387,7 +4613,9 @@
         "bech32PrefixConsPub": "marsvalconspub"
       },
       "slip44": 118,
-      "alternative_slip44s": [330],
+      "alternative_slip44s": [
+        330
+      ],
       "fees": {
         "fee_tokens": [
           {
@@ -4424,7 +4652,10 @@
           "tx_page": "https://explorer.marsprotocol.io/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "canto",
@@ -4477,7 +4708,12 @@
           "tx_page": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     },
     {
       "chain_name": "quicksilver",
@@ -4531,7 +4767,10 @@
           "tx_page": "https://www.mintscan.io/quicksilver/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "8ball",
@@ -4584,7 +4823,10 @@
           "tx_page": "https://explorer.8ball.info/8ball/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "arkh",
@@ -4637,7 +4879,10 @@
           "tx_page": "https://explorer.kynraze.com/arkhadian/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "noble",
@@ -4701,7 +4946,10 @@
           "tx_page": "https://www.mintscan.io/noble/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "migaloo",
@@ -4754,7 +5002,10 @@
           "tx_page": "https://ping.pub/migaloo/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "omniflixhub",
@@ -4808,7 +5059,10 @@
           "tx_page": "https://www.mintscan.io/omniflix/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "axelar",
@@ -4862,7 +5116,11 @@
           "tx_page": "https://axelarscan.io/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "axelar-evm-bridge"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "axelar-evm-bridge"
+      ]
     },
     {
       "chain_name": "bluzelle",
@@ -4918,7 +5176,10 @@
           "tx_page": "https://bd.explorer.net.bluzelle.com/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "gitopia",
@@ -4975,7 +5236,10 @@
           "tx_page": "https://ping.pub/gitopia/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "nolus",
@@ -5031,7 +5295,10 @@
           "tx_page": "https://explorer.nolus.io/pirin-1/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "neutron",
@@ -5096,7 +5363,10 @@
           "tx_page": "https://www.mintscan.io/neutron/txs/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "composable",
@@ -5150,7 +5420,10 @@
           "tx_page": "https://ping.pub/Centauri/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "realio",
@@ -5206,7 +5479,12 @@
           "tx_page": "https://explorer.genznodes.dev/realio/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     },
     {
       "chain_name": "quasar",
@@ -5274,7 +5552,10 @@
           "tx_page": "https://www.mintscan.io/quasar/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "archway",
@@ -5331,7 +5612,10 @@
           "tx_page": "https://www.mintscan.io/archway/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "empowerchain",
@@ -5384,7 +5668,10 @@
           "tx_page": "https://ping.pub/empower/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "kyve",
@@ -5438,7 +5725,10 @@
           "tx_page": "https://mintscan.io/kyve/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "sei",
@@ -5492,7 +5782,10 @@
           "tx_page": "https://www.mintscan.io/sei/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "passage",
@@ -5545,7 +5838,10 @@
           "tx_page": "https://www.mintscan.io/passage/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "gateway",
@@ -5598,7 +5894,11 @@
           "tx_page": "https://bigdipper.live/wormhole/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-go", "ibc-transfer", "cosmwasm"]
+      "features": [
+        "ibc-go",
+        "ibc-transfer",
+        "cosmwasm"
+      ]
     },
     {
       "chain_name": "xpla",
@@ -5710,7 +6010,9 @@
           "tx_page": "https://blockexplorer.sgenetwork.io/sge/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer"]
+      "features": [
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "stafihub",
@@ -5766,7 +6068,10 @@
           "tx_page": "https://www.mintscan.io/stafi/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "doravota",
@@ -5816,7 +6121,10 @@
           "tx_page": "https://vota-explorer.dorafactory.org/doravota/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chain_name": "coreum",
@@ -5872,7 +6180,10 @@
           "tx_page": "https://www.mintscan.io/coreum/tx/${txHash}"
         }
       ],
-      "features": ["ibc-go", "ibc-transfer"]
+      "features": [
+        "ibc-go",
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "celestia",
@@ -5926,7 +6237,10 @@
           "tx_page": "https://www.mintscan.io/celestia/tx/${txHash}"
         }
       ],
-      "features": ["ibc-go", "ibc-transfer"]
+      "features": [
+        "ibc-go",
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "dydx",
@@ -5987,7 +6301,10 @@
           "tx_page": "https://www.mintscan.io/dydx/txs/${txHash}"
         }
       ],
-      "features": ["ibc-go", "ibc-transfer"]
+      "features": [
+        "ibc-go",
+        "ibc-transfer"
+      ]
     },
     {
       "chain_name": "fxcore",
@@ -6040,7 +6357,12 @@
           "tx_page": "https://starscan.io/fxcore/tx/${txHash}"
         }
       ],
-      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     },
     {
       "chain_name": "nomic",
@@ -6096,7 +6418,10 @@
           "tx_page": "https://bigdipper.live/nomic/transactions/${txHash}"
         }
       ],
-      "features": ["ibc-go", "ibc-transfer"]
+      "features": [
+        "ibc-go",
+        "ibc-transfer"
+      ]
     }
   ]
 }
