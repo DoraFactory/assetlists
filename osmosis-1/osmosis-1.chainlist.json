@@ -38,6 +38,7 @@
           "time": "1209600s"
         }
       },
+      "description": "Swap, earn, and build on the leading decentralized Cosmos exchange.",
       "apis": {
         "rpc": [
           {
@@ -97,6 +98,7 @@
           }
         ]
       },
+      "description": "Cosmos Hub is the gateway to a rapidly expanding ecosystem of independent interconnected blockchains built using developer-friendly application components and connected with ground-breaking IBC (Inter-Blockchain Communication) protocol.",
       "apis": {
         "rpc": [
           {
@@ -114,10 +116,7 @@
           "tx_page": "https://www.mintscan.io/osmosis/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-go",
-        "ibc-transfer"
-      ]
+      "features": ["ibc-go", "ibc-transfer"]
     },
     {
       "chain_name": "terra",
@@ -301,10 +300,7 @@
           "tx_page": "https://finder.terra.money/columbus-5/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "terra-classic-fee"
-      ]
+      "features": ["ibc-transfer", "terra-classic-fee"]
     },
     {
       "chain_name": "secretnetwork",
@@ -322,9 +318,7 @@
         "bech32PrefixConsPub": "secretvalconspub"
       },
       "slip44": 529,
-      "alternative_slip44s": [
-        118
-      ],
+      "alternative_slip44s": [118],
       "fees": {
         "fee_tokens": [
           {
@@ -343,6 +337,7 @@
           }
         ]
       },
+      "description": "Secret Network is the first blockchain with customizable privacy. You get to choose what you share, with whom, and how. This protects users, and empowers developers to build a better Web3.",
       "apis": {
         "rpc": [
           {
@@ -399,6 +394,7 @@
           }
         ]
       },
+      "description": "Akash is open-source Supercloud that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.",
       "apis": {
         "rpc": [
           {
@@ -416,10 +412,7 @@
           "tx_page": "https://www.mintscan.io/akash/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "regen",
@@ -454,6 +447,7 @@
           }
         ]
       },
+      "description": "Regen Network, a platform to originate and invest in high-integrity carbon and biodiversity credits from ecological regeneration projects.",
       "apis": {
         "rpc": [
           {
@@ -471,9 +465,7 @@
           "tx_page": "https://regen.aneka.io/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "sentinel",
@@ -508,6 +500,7 @@
           }
         ]
       },
+      "description": "The Sentinel ecosystem is a global network of autonomous dVPN applications that enable private and censorship resistant internet access.",
       "apis": {
         "rpc": [
           {
@@ -525,10 +518,7 @@
           "tx_page": "https://www.mintscan.io/sentinel/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "persistence",
@@ -546,9 +536,7 @@
         "bech32PrefixConsPub": "persistencevalconspub"
       },
       "slip44": 118,
-      "alternative_slip44s": [
-        750
-      ],
+      "alternative_slip44s": [750],
       "fees": {
         "fee_tokens": [
           {
@@ -570,6 +558,7 @@
           "time": "1814400s"
         }
       },
+      "description": "Persistence is an app chain for Liquid Staking powering an ecosystem of DeFi applications focused on unlocking the liquidity of staked assets.",
       "apis": {
         "rpc": [
           {
@@ -587,10 +576,7 @@
           "tx_page": "https://www.mintscan.io/persistence/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "irisnet",
@@ -608,9 +594,6 @@
         "bech32PrefixConsPub": "iaavalconspub"
       },
       "slip44": 118,
-      "alternative_slip44s": [
-        566
-      ],
       "fees": {
         "fee_tokens": [
           {
@@ -645,15 +628,13 @@
           "tx_page": "https://www.mintscan.io/iris/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "cryptoorgchain",
       "status": "live",
       "network_type": "mainnet",
-      "pretty_name": "Crypto.org Chain",
+      "pretty_name": "Cronos POS Chain",
       "chain_id": "crypto-org-chain-mainnet-1",
       "bech32_prefix": "cro",
       "bech32_config": {
@@ -665,9 +646,7 @@
         "bech32PrefixConsPub": "crovalconspub"
       },
       "slip44": 394,
-      "alternative_slip44s": [
-        118
-      ],
+      "alternative_slip44s": [118],
       "fees": {
         "fee_tokens": [
           {
@@ -685,6 +664,7 @@
           }
         ]
       },
+      "description": "Cronos PoS Chain is a public, open-source and permissionless blockchain - a fully decentralized network with high speed and low fees, designed to be a public good that helps drive mass adoption of blockchain technology through use cases like Payments, DeFi and NFTs.",
       "apis": {
         "rpc": [
           {
@@ -702,9 +682,7 @@
           "tx_page": "https://www.mintscan.io/crypto-org/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "starname",
@@ -722,9 +700,7 @@
         "bech32PrefixConsPub": "starvalconspub"
       },
       "slip44": 234,
-      "alternative_slip44s": [
-        118
-      ],
+      "alternative_slip44s": [118],
       "fees": {
         "fee_tokens": [
           {
@@ -742,6 +718,7 @@
           }
         ]
       },
+      "description": "Starname is the best way to claim your part of the blockchain. You can use it for decentralized identification, payments, ownership and applications. Starname can be integrated into digital wallets, dapps and exchanges.",
       "apis": {
         "rpc": [
           {
@@ -759,9 +736,7 @@
           "tx_page": "https://www.mintscan.io/starname/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "emoney",
@@ -843,9 +818,7 @@
           "tx_page": "https://emoney.bigdipper.live/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "juno",
@@ -888,6 +861,7 @@
           }
         ]
       },
+      "description": "Juno is a completely community owned and operated smart contract platform.",
       "apis": {
         "rpc": [
           {
@@ -905,12 +879,7 @@
           "tx_page": "https://www.mintscan.io/juno/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "cosmwasm",
-        "wasmd_0.24+"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
     },
     {
       "chain_name": "microtick",
@@ -927,6 +896,7 @@
         "bech32PrefixConsAddr": "microvalcons",
         "bech32PrefixConsPub": "microvalconspub"
       },
+      "slip44": 118,
       "fees": {
         "fee_tokens": [
           {
@@ -958,9 +928,7 @@
           "tx_page": "https://explorer.microtick.zone/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "likecoin",
@@ -1016,10 +984,7 @@
           "tx_page": "https://likecoin.bigdipper.live/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "impacthub",
@@ -1072,9 +1037,7 @@
           "tx_page": "https://blockscan.ixo.world/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "bitcanna",
@@ -1127,10 +1090,7 @@
           "tx_page": "https://www.mintscan.io/bitcanna/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "bitsong",
@@ -1166,6 +1126,7 @@
           }
         ]
       },
+      "description": "Artists, Fans, Managers and Labels in One Single Holistic Ecosystem: $BTSG. Earn real-time royalties, discover exclusive content, mint and trade Fantokens, buy & sell NFTs.",
       "apis": {
         "rpc": [
           {
@@ -1183,10 +1144,7 @@
           "tx_page": "https://explorebitsong.com/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "kichain",
@@ -1239,12 +1197,7 @@
           "tx_page": "https://www.mintscan.io/ki-chain/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "cosmwasm",
-        "wasmd_0.24+"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
     },
     {
       "chain_name": "panacea",
@@ -1297,9 +1250,7 @@
           "tx_page": "https://www.mintscan.io/medibloc/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "bostrom",
@@ -1351,9 +1302,7 @@
           "tx_page": "https://cyb.ai/network/bostrom/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "comdex",
@@ -1406,9 +1355,7 @@
           "tx_page": "https://www.mintscan.io/comdex/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "cheqd",
@@ -1461,9 +1408,7 @@
           "tx_page": "https://explorer.cheqd.io/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "stargaze",
@@ -1499,6 +1444,7 @@
           }
         ]
       },
+      "description": "The premier community-focused blockchain for NFTs. Stargaze empowers creators, developers, collectors, and traders to participate on the platform. The Stargaze chain consists of various NFT-related apps such as a Launchpad, and a Marketplace with offers and auctions.",
       "apis": {
         "rpc": [
           {
@@ -1516,9 +1462,7 @@
           "tx_page": "https://www.mintscan.io/stargaze/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "chihuahua",
@@ -1571,10 +1515,7 @@
           "tx_page": "https://ping.pub/chihuahua/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "lumnetwork",
@@ -1627,10 +1568,7 @@
           "tx_page": "https://www.mintscan.io/lum/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "vidulum",
@@ -1680,10 +1618,7 @@
           "tx_page": "https://explorers.vidulum.app/vidulum/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "desmos",
@@ -1736,10 +1671,7 @@
           "tx_page": "https://explorer.desmos.network/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "dig",
@@ -1791,10 +1723,7 @@
           "tx_page": "https://ping.pub/dig/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "sommelier",
@@ -1826,6 +1755,7 @@
           }
         ]
       },
+      "description": "Automated vaults find best-in-class yields while mitigating risk.",
       "apis": {
         "rpc": [
           {
@@ -1843,10 +1773,7 @@
           "tx_page": "https://www.mintscan.io/sommelier/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "sifchain",
@@ -1863,6 +1790,7 @@
         "bech32PrefixConsAddr": "sifvalcons",
         "bech32PrefixConsPub": "sifvalconspub"
       },
+      "slip44": 118,
       "fees": {
         "fee_tokens": [
           {
@@ -1897,9 +1825,7 @@
           "tx_page": "https://www.mintscan.io/sifchain/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "bandchain",
@@ -1931,6 +1857,7 @@
           }
         ]
       },
+      "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
       "apis": {
         "rpc": [
           {
@@ -1948,9 +1875,7 @@
           "tx_page": "https://cosmoscan.io/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "konstellation",
@@ -1967,6 +1892,7 @@
         "bech32PrefixConsAddr": "darcvalcons",
         "bech32PrefixConsPub": "darcvalconspub"
       },
+      "slip44": 118,
       "fees": {
         "fee_tokens": [
           {
@@ -1999,9 +1925,7 @@
           "tx_page": "https://www.mintscan.io/konstellation/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "umee",
@@ -2054,9 +1978,7 @@
           "tx_page": "https://www.mintscan.io/umee/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "gravitybridge",
@@ -2104,6 +2026,7 @@
           }
         ]
       },
+      "description": "An open, decentralized bridge that unlocks the power of interoperability & liquidity between blockchain ecosystems.",
       "apis": {
         "rpc": [
           {
@@ -2121,10 +2044,7 @@
           "tx_page": "https://www.mintscan.io/gravity-bridge/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "decentr",
@@ -2174,9 +2094,7 @@
           "tx_page": "https://explorer.decentr.net/transactions/${txHash}?networkId=mainnet"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
     },
     {
       "chain_name": "shentu",
@@ -2228,10 +2146,7 @@
           "tx_page": "https://www.mintscan.io/shentu/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "carbon",
@@ -2384,6 +2299,28 @@
             }
           },
           {
+            "denom": "ibc/35E771B8682D828173F4B795F6C307780F96DC64D6F914FAE4CC9B4666F66364",
+            "fixed_min_gas_price": 0,
+            "low_gas_price": 300000000,
+            "average_gas_price": 300000000,
+            "high_gas_price": 300000000,
+            "gas_costs": {
+              "cosmos_send": 100000000,
+              "ibc_transfer": 100000000
+            }
+          },
+          {
+            "denom": "ibc/4E06CF24FEBFB3F5AF645377DCC0B70AA6183BAF6B918B8B6243FCDEB7D38118",
+            "fixed_min_gas_price": 0,
+            "low_gas_price": 0.0006,
+            "average_gas_price": 0.0006,
+            "high_gas_price": 0.0006,
+            "gas_costs": {
+              "cosmos_send": 100000000,
+              "ibc_transfer": 100000000
+            }
+          },
+          {
             "denom": "ibc/662914D0C1CEBCB070C68F061D035E8B10A07C79AB286E7342C85F3BE74612C5",
             "fixed_min_gas_price": 0,
             "low_gas_price": 0.00015,
@@ -2470,6 +2407,17 @@
               "cosmos_send": 100000000,
               "ibc_transfer": 100000000
             }
+          },
+          {
+            "denom": "zil.1.18.1a4a06",
+            "fixed_min_gas_price": 0,
+            "low_gas_price": 6000,
+            "average_gas_price": 6000,
+            "high_gas_price": 6000,
+            "gas_costs": {
+              "cosmos_send": 100000000,
+              "ibc_transfer": 100000000
+            }
           }
         ]
       },
@@ -2497,10 +2445,7 @@
           "tx_page": "https://scan.carbon.network/transaction/${txHash}?net=main"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "injective",
@@ -2536,6 +2481,7 @@
           }
         ]
       },
+      "description": "Injective’s mission is to create a truly free and inclusive financial system through decentralization.",
       "apis": {
         "rpc": [
           {
@@ -2553,12 +2499,7 @@
           "tx_page": "https://explorer.injective.network/transaction/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "eth-address-gen",
-        "eth-key-sign"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
     },
     {
       "chain_name": "cerberus",
@@ -2575,6 +2516,7 @@
         "bech32PrefixConsAddr": "cerberusvalcons",
         "bech32PrefixConsPub": "cerberusvalconspub"
       },
+      "slip44": 118,
       "fees": {
         "fee_tokens": [
           {
@@ -2607,10 +2549,7 @@
           "tx_page": "https://skynetexplorers.com/Cerberus/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "fetchhub",
@@ -2662,10 +2601,7 @@
           "tx_page": "https://www.mintscan.io/fetchai/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "assetmantle",
@@ -2682,6 +2618,7 @@
         "bech32PrefixConsAddr": "mantlevalcons",
         "bech32PrefixConsPub": "mantlevalconspub"
       },
+      "slip44": 118,
       "fees": {
         "fee_tokens": [
           {
@@ -2699,6 +2636,7 @@
           }
         ]
       },
+      "description": "AssetMantle’s suite of products is focused on the NFT ecosystem, helping you up your game with digital asset ownership.",
       "apis": {
         "rpc": [
           {
@@ -2716,10 +2654,7 @@
           "tx_page": "https://www.mintscan.io/asset-mantle/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "provenance",
@@ -2772,10 +2707,7 @@
           "tx_page": "https://www.mintscan.io/provenance/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "galaxy",
@@ -2827,10 +2759,7 @@
           "tx_page": "https://explorer.postcapitalist.io/galaxy/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "meme",
@@ -2883,10 +2812,7 @@
           "tx_page": "https://explorer.meme.sx/meme/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "evmos",
@@ -2922,6 +2848,7 @@
           }
         ]
       },
+      "description": "Developers use Evmos as the Ethereum Canary Chain to deploy applications of the future. Get all the functionalities of Ethereum with the power of IBC and Interchain composability.",
       "apis": {
         "rpc": [
           {
@@ -2939,12 +2866,7 @@
           "tx_page": "https://www.mintscan.io/evmos/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "eth-address-gen",
-        "eth-key-sign"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
     },
     {
       "chain_name": "terra2",
@@ -2980,6 +2902,7 @@
           }
         ]
       },
+      "description": "Fueled by a passionate community and deep developer talent pool, the Terra blockchain is built to enable the next generation of Web3 products and services.",
       "apis": {
         "rpc": [
           {
@@ -2997,11 +2920,7 @@
           "tx_page": "https://finder.terra.money/phoenix-1/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "cosmwasm",
-        "wasmd_0.24+"
-      ]
+      "features": ["ibc-transfer", "cosmwasm", "wasmd_0.24+"]
     },
     {
       "chain_name": "rizon",
@@ -3053,10 +2972,7 @@
           "tx_page": "https://www.mintscan.io/rizon/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "kava",
@@ -3074,9 +2990,7 @@
         "bech32PrefixConsPub": "kavavalconspub"
       },
       "slip44": 459,
-      "alternative_slip44s": [
-        118
-      ],
+      "alternative_slip44s": [118],
       "fees": {
         "fee_tokens": [
           {
@@ -3094,6 +3008,7 @@
           }
         ]
       },
+      "description": "Kava is a decentralized blockchain that combines the speed and interoperability of Cosmos with the developer power of Ethereum.",
       "apis": {
         "rpc": [
           {
@@ -3111,10 +3026,7 @@
           "tx_page": "https://www.mintscan.io/kava/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "genesisl1",
@@ -3166,10 +3078,7 @@
           "tx_page": "https://ping.pub/genesisL1/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "kujira",
@@ -3205,6 +3114,7 @@
           }
         ]
       },
+      "description": "A decentralized ecosystem for protocols, builders and web3 users seeking sustainable FinTech.",
       "apis": {
         "rpc": [
           {
@@ -3222,10 +3132,7 @@
           "tx_page": "https://finder.kujira.app/kaiyo-1/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "tgrade",
@@ -3278,12 +3185,7 @@
           "tx_page": "https://tgrade.aneka.io/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "cosmwasm",
-        "wasmd_0.24+"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
     },
     {
       "chain_name": "echelon",
@@ -3335,10 +3237,7 @@
           "tx_page": "https://ping.pub/echelon/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "odin",
@@ -3391,12 +3290,7 @@
           "tx_page": "https://scan.odinprotocol.io/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "cosmwasm",
-        "wasmd_0.24+"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
     },
     {
       "chain_name": "crescent",
@@ -3449,10 +3343,7 @@
           "tx_page": "https://www.mintscan.io/crescent/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "lumenx",
@@ -3505,10 +3396,7 @@
           "tx_page": "https://ping.pub/lumenx/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "oraichain",
@@ -3561,10 +3449,7 @@
           "tx_page": "https://scan.orai.io/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "cudos",
@@ -3616,10 +3501,7 @@
           "tx_page": "https://explorer.cudos.org/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "agoric",
@@ -3637,9 +3519,7 @@
         "bech32PrefixConsPub": "agoricvalconspub"
       },
       "slip44": 564,
-      "alternative_slip44s": [
-        118
-      ],
+      "alternative_slip44s": [118],
       "fees": {
         "fee_tokens": [
           {
@@ -3663,6 +3543,7 @@
           }
         ]
       },
+      "description": "The Agoric platform makes it safe and seamless to build decentralized apps using your existing JavaScript knowledge.",
       "apis": {
         "rpc": [
           {
@@ -3680,10 +3561,7 @@
           "tx_page": "https://agoric.bigdipper.live/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "stride",
@@ -3845,6 +3723,7 @@
           }
         ]
       },
+      "description": "Stride is a blockchain that provides liquidity for staked tokens. Using Stride, you can earn both taking and DeFi yields across the Cosmos IBC ecosystem.",
       "apis": {
         "rpc": [
           {
@@ -3862,10 +3741,7 @@
           "tx_page": "https://explorer.stride.zone/stride/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "rebus",
@@ -3915,10 +3791,7 @@
           "tx_page": "https://rebus.explorers.guru/transaction/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "teritori",
@@ -3970,10 +3843,7 @@
           "tx_page": "https://explorer.teritori.com/teritori/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "lambda",
@@ -4025,12 +3895,7 @@
           "tx_page": "https://explorer.nodestake.top/lambda/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "eth-address-gen",
-        "eth-key-sign"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
     },
     {
       "chain_name": "unification",
@@ -4086,10 +3951,7 @@
           "tx_page": "https://explorer.unification.chainmasters.ninja/unification/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "jackal",
@@ -4142,10 +4004,7 @@
           "tx_page": "https://ping.pub/jackal/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "beezee",
@@ -4195,10 +4054,7 @@
           "tx_page": "https://explorer.thesilverfox.pro/beezee/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "acrechain",
@@ -4251,12 +4107,7 @@
           "tx_page": "https://cosmosrun.info/acre-mainnet/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "eth-address-gen",
-        "eth-key-sign"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
     },
     {
       "chain_name": "imversed",
@@ -4309,12 +4160,7 @@
           "tx_page": "https://txe.imversed.network/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "eth-address-gen",
-        "eth-key-sign"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
     },
     {
       "chain_name": "medasdigital",
@@ -4331,14 +4177,14 @@
         "bech32PrefixConsAddr": "medasvalcons",
         "bech32PrefixConsPub": "medasvalconspub"
       },
+      "slip44": 118,
       "fees": {
         "fee_tokens": [
           {
             "denom": "umedas",
-            "fixed_min_gas_price": 0,
-            "low_gas_price": 0,
-            "average_gas_price": 0.0001,
-            "high_gas_price": 0.00025
+            "low_gas_price": 0.1,
+            "average_gas_price": 0.25,
+            "high_gas_price": 0.4
           }
         ]
       },
@@ -4366,10 +4212,7 @@
           "tx_page": "https://www.mintscan.io/medasdigital/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "onomy",
@@ -4421,10 +4264,7 @@
           "tx_page": "https://www.mintscan.io/onomy-protocol/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "planq",
@@ -4477,12 +4317,7 @@
           "tx_page": "https://ping.pub/planq/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "eth-address-gen",
-        "eth-key-sign"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
     },
     {
       "chain_name": "dyson",
@@ -4534,10 +4369,7 @@
           "tx_page": "https://explorer.dys.dysonprotocol.com/dyson/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "mars",
@@ -4555,9 +4387,7 @@
         "bech32PrefixConsPub": "marsvalconspub"
       },
       "slip44": 118,
-      "alternative_slip44s": [
-        330
-      ],
+      "alternative_slip44s": [330],
       "fees": {
         "fee_tokens": [
           {
@@ -4576,6 +4406,7 @@
           }
         ]
       },
+      "description": "Lend, borrow and earn with an autonomous credit protocol in the Cosmos universe. Open to all, closed to none.",
       "apis": {
         "rpc": [
           {
@@ -4593,10 +4424,7 @@
           "tx_page": "https://explorer.marsprotocol.io/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "canto",
@@ -4649,12 +4477,7 @@
           "tx_page": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "eth-address-gen",
-        "eth-key-sign"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
     },
     {
       "chain_name": "quicksilver",
@@ -4690,6 +4513,7 @@
           }
         ]
       },
+      "description": "Liquid Stake your Cosmos assets with your preferred validator and receive liquid staked assets (qASSETs) that you can use for swapping, pooling, lending, and more, all while your original stake earns staking APY from securing the network.",
       "apis": {
         "rpc": [
           {
@@ -4707,10 +4531,7 @@
           "tx_page": "https://www.mintscan.io/quicksilver/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "8ball",
@@ -4763,10 +4584,7 @@
           "tx_page": "https://explorer.8ball.info/8ball/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "arkh",
@@ -4819,10 +4637,7 @@
           "tx_page": "https://explorer.kynraze.com/arkhadian/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "noble",
@@ -4868,6 +4683,7 @@
           "time": "1814400s"
         }
       },
+      "description": "The most reliable, secure, and frictionless way to natively issue a digital asset in Cosmos.",
       "apis": {
         "rpc": [
           {
@@ -4885,10 +4701,7 @@
           "tx_page": "https://www.mintscan.io/noble/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "migaloo",
@@ -4910,10 +4723,10 @@
         "fee_tokens": [
           {
             "denom": "uwhale",
-            "fixed_min_gas_price": 0.25,
-            "low_gas_price": 0.25,
-            "average_gas_price": 0.5,
-            "high_gas_price": 0.75
+            "fixed_min_gas_price": 1,
+            "low_gas_price": 1,
+            "average_gas_price": 2,
+            "high_gas_price": 3
           }
         ]
       },
@@ -4941,10 +4754,7 @@
           "tx_page": "https://ping.pub/migaloo/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "omniflixhub",
@@ -4980,6 +4790,7 @@
           }
         ]
       },
+      "description": "Decentralized media and network layer for Creators & Sovereign Communities powered by NFTs and related distribution protocols.",
       "apis": {
         "rpc": [
           {
@@ -4997,10 +4808,7 @@
           "tx_page": "https://www.mintscan.io/omniflix/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "axelar",
@@ -5036,6 +4844,7 @@
           }
         ]
       },
+      "description": "Axelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click.",
       "apis": {
         "rpc": [
           {
@@ -5053,11 +4862,7 @@
           "tx_page": "https://axelarscan.io/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "axelar-evm-bridge"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "axelar-evm-bridge"]
     },
     {
       "chain_name": "bluzelle",
@@ -5113,10 +4918,7 @@
           "tx_page": "https://bd.explorer.net.bluzelle.com/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "gitopia",
@@ -5155,6 +4957,7 @@
           "time": "1814400s"
         }
       },
+      "description": "Gitopia is the next-generation Code Collaboration Platform fuelled by a decentralized network and interactive token economy. It is designed to optimize the open-source software development process through collaboration, transparency, and incentivization.",
       "apis": {
         "rpc": [
           {
@@ -5172,10 +4975,7 @@
           "tx_page": "https://ping.pub/gitopia/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "nolus",
@@ -5213,6 +5013,7 @@
           "time": "1814400s"
         }
       },
+      "description": "Elevate your game with up to 3x equity. Dive into a world of minimized risks and unlock the full potential of your assets.",
       "apis": {
         "rpc": [
           {
@@ -5230,10 +5031,7 @@
           "tx_page": "https://explorer.nolus.io/pirin-1/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "neutron",
@@ -5255,9 +5053,21 @@
         "fee_tokens": [
           {
             "denom": "untrn",
-            "low_gas_price": 0.01,
-            "average_gas_price": 0.025,
-            "high_gas_price": 0.05
+            "low_gas_price": 0.5,
+            "average_gas_price": 0.5,
+            "high_gas_price": 0.5
+          },
+          {
+            "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+            "low_gas_price": 0.022,
+            "average_gas_price": 0.022,
+            "high_gas_price": 0.022
+          },
+          {
+            "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+            "low_gas_price": 0.25,
+            "average_gas_price": 0.25,
+            "high_gas_price": 0.25
           }
         ]
       },
@@ -5268,6 +5078,7 @@
           }
         ]
       },
+      "description": "The most secure CosmWasm platform in Cosmos, Neutron lets smart-contracts leverage bleeding-edge Interchain technology with minimal overhead.",
       "apis": {
         "rpc": [
           {
@@ -5285,10 +5096,7 @@
           "tx_page": "https://www.mintscan.io/neutron/txs/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "composable",
@@ -5324,6 +5132,7 @@
           }
         ]
       },
+      "description": "Composable is the base layer connecting L1s and L2s. We are scaling IBC to other ecosystems, pushing the boundaries of trust-minimized interoperability. We abstract the cross-chain experience for users, delivering seamless chain-agnostic execution of user intentions.",
       "apis": {
         "rpc": [
           {
@@ -5341,10 +5150,7 @@
           "tx_page": "https://ping.pub/Centauri/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "realio",
@@ -5400,10 +5206,7 @@
           "tx_page": "https://explorer.genznodes.dev/realio/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
     },
     {
       "chain_name": "quasar",
@@ -5453,6 +5256,7 @@
           }
         ]
       },
+      "description": "Quasar is the first decentralized asset management (D.A.M.) platform enabled by IBC. A secure, permissionless, composable, and diversified interchain DeFi experience is finally here.",
       "apis": {
         "rpc": [
           {
@@ -5470,10 +5274,7 @@
           "tx_page": "https://www.mintscan.io/quasar/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "archway",
@@ -5512,6 +5313,7 @@
           "time": "1209600s"
         }
       },
+      "description": "An incentivized L1 blockchain that allows developers to capture the value their dapps create, enabling sustainable economic models.",
       "apis": {
         "rpc": [
           {
@@ -5529,10 +5331,7 @@
           "tx_page": "https://www.mintscan.io/archway/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "empowerchain",
@@ -5585,10 +5384,7 @@
           "tx_page": "https://ping.pub/empower/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "kyve",
@@ -5624,6 +5420,7 @@
           }
         ]
       },
+      "description": "Revolutionizing data reliability in the Web3 space, KYVE Network provides fast and easy tooling for data validation, immutability, and retrieval, ensuring trustless data for seamless scalability and eliminating data risks and roadblocks.",
       "apis": {
         "rpc": [
           {
@@ -5641,10 +5438,7 @@
           "tx_page": "https://mintscan.io/kyve/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "sei",
@@ -5680,6 +5474,7 @@
           }
         ]
       },
+      "description": "Sei is the fastest Layer 1 blockchain, designed to scale with the industry.",
       "apis": {
         "rpc": [
           {
@@ -5697,10 +5492,7 @@
           "tx_page": "https://www.mintscan.io/sei/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "passage",
@@ -5753,10 +5545,7 @@
           "tx_page": "https://www.mintscan.io/passage/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "gateway",
@@ -5809,11 +5598,7 @@
           "tx_page": "https://bigdipper.live/wormhole/transactions/${txHash}"
         }
       ],
-      "features": [
-        "ibc-go",
-        "ibc-transfer",
-        "cosmwasm"
-      ]
+      "features": ["ibc-go", "ibc-transfer", "cosmwasm"]
     },
     {
       "chain_name": "xpla",
@@ -5925,9 +5710,63 @@
           "tx_page": "https://blockexplorer.sgenetwork.io/sge/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer"
-      ]
+      "features": ["ibc-transfer"]
+    },
+    {
+      "chain_name": "stafihub",
+      "status": "live",
+      "network_type": "mainnet",
+      "pretty_name": "StaFi Hub",
+      "chain_id": "stafihub-1",
+      "bech32_prefix": "stafi",
+      "bech32_config": {
+        "bech32PrefixAccAddr": "stafi",
+        "bech32PrefixAccPub": "stafipub",
+        "bech32PrefixValAddr": "stafivaloper",
+        "bech32PrefixValPub": "stafivaloperpub",
+        "bech32PrefixConsAddr": "stafivalcons",
+        "bech32PrefixConsPub": "stafivalconspub"
+      },
+      "slip44": 118,
+      "fees": {
+        "fee_tokens": [
+          {
+            "denom": "ufis",
+            "fixed_min_gas_price": 0,
+            "low_gas_price": 0,
+            "average_gas_price": 0.025,
+            "high_gas_price": 0.04
+          }
+        ]
+      },
+      "staking": {
+        "staking_tokens": [
+          {
+            "denom": "ufis"
+          }
+        ],
+        "lock_duration": {
+          "time": "1209600s"
+        }
+      },
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://public-rpc1.stafihub.io"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://public-rest-rpc1.stafihub.io"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "tx_page": "https://www.mintscan.io/stafi/transactions/${txHash}"
+        }
+      ],
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chain_name": "doravota",
@@ -5949,10 +5788,7 @@
         "fee_tokens": [
           {
             "denom": "peaka",
-            "fixed_min_gas_price": 100000000000,
-            "low_gas_price": 100000000000,
-            "average_gas_price": 100000000000,
-            "high_gas_price": 100000000000
+            "fixed_min_gas_price": 100000000000
           }
         ]
       },
@@ -5980,10 +5816,287 @@
           "tx_page": "https://vota-explorer.dorafactory.org/doravota/tx/${txHash}"
         }
       ],
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
+    },
+    {
+      "chain_name": "coreum",
+      "status": "live",
+      "network_type": "mainnet",
+      "pretty_name": "Coreum",
+      "chain_id": "coreum-mainnet-1",
+      "bech32_prefix": "core",
+      "bech32_config": {
+        "bech32PrefixAccAddr": "core",
+        "bech32PrefixAccPub": "corepub",
+        "bech32PrefixValAddr": "corevaloper",
+        "bech32PrefixValPub": "corevaloperpub",
+        "bech32PrefixConsAddr": "corevalcons",
+        "bech32PrefixConsPub": "corevalconspub"
+      },
+      "slip44": 990,
+      "fees": {
+        "fee_tokens": [
+          {
+            "denom": "ucore",
+            "fixed_min_gas_price": 0.03125,
+            "low_gas_price": 0.0625,
+            "average_gas_price": 0.0625,
+            "high_gas_price": 62.5
+          }
+        ]
+      },
+      "staking": {
+        "staking_tokens": [
+          {
+            "denom": "ucore"
+          }
+        ],
+        "lock_duration": {
+          "time": "168h"
+        }
+      },
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://full-node.mainnet-1.coreum.dev:26657"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://full-node.mainnet-1.coreum.dev:1317"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "tx_page": "https://www.mintscan.io/coreum/tx/${txHash}"
+        }
+      ],
+      "features": ["ibc-go", "ibc-transfer"]
+    },
+    {
+      "chain_name": "celestia",
+      "status": "live",
+      "network_type": "mainnet",
+      "pretty_name": "Celestia",
+      "chain_id": "celestia",
+      "bech32_prefix": "celestia",
+      "bech32_config": {
+        "bech32PrefixAccAddr": "celestia",
+        "bech32PrefixAccPub": "celestiapub",
+        "bech32PrefixValAddr": "celestiavaloper",
+        "bech32PrefixValPub": "celestiavaloperpub",
+        "bech32PrefixConsAddr": "celestiavalcons",
+        "bech32PrefixConsPub": "celestiavalconspub"
+      },
+      "slip44": 118,
+      "fees": {
+        "fee_tokens": [
+          {
+            "denom": "utia",
+            "fixed_min_gas_price": 0,
+            "low_gas_price": 0.1,
+            "average_gas_price": 0.2,
+            "high_gas_price": 0.4
+          }
+        ]
+      },
+      "staking": {
+        "staking_tokens": [
+          {
+            "denom": "utia"
+          }
+        ]
+      },
+      "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://rpc-celestia.keplr.app"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://lcd-celestia.keplr.app"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "tx_page": "https://www.mintscan.io/celestia/tx/${txHash}"
+        }
+      ],
+      "features": ["ibc-go", "ibc-transfer"]
+    },
+    {
+      "chain_name": "dydx",
+      "status": "live",
+      "network_type": "mainnet",
+      "pretty_name": "dYdX Protocol",
+      "chain_id": "dydx-mainnet-1",
+      "bech32_prefix": "dydx",
+      "bech32_config": {
+        "bech32PrefixAccAddr": "dydx",
+        "bech32PrefixAccPub": "dydxpub",
+        "bech32PrefixValAddr": "dydxvaloper",
+        "bech32PrefixValPub": "dydxvaloperpub",
+        "bech32PrefixConsAddr": "dydxvalcons",
+        "bech32PrefixConsPub": "dydxvalconspub"
+      },
+      "slip44": 118,
+      "fees": {
+        "fee_tokens": [
+          {
+            "denom": "adydx",
+            "fixed_min_gas_price": 12500000000,
+            "low_gas_price": 12500000000,
+            "average_gas_price": 12500000000,
+            "high_gas_price": 20000000000
+          },
+          {
+            "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+            "fixed_min_gas_price": 0.025,
+            "low_gas_price": 0.025,
+            "average_gas_price": 0.025,
+            "high_gas_price": 0.03
+          }
+        ]
+      },
+      "staking": {
+        "staking_tokens": [
+          {
+            "denom": "adydx"
+          }
+        ]
+      },
+      "description": "Our goal is to build open source code that can power a first class product and trading experience.",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://dydx-rpc.lavenderfive.com:443"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://dydx-api.lavenderfive.com:443"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "tx_page": "https://www.mintscan.io/dydx/txs/${txHash}"
+        }
+      ],
+      "features": ["ibc-go", "ibc-transfer"]
+    },
+    {
+      "chain_name": "fxcore",
+      "status": "live",
+      "network_type": "mainnet",
+      "pretty_name": "f(x)Core",
+      "chain_id": "fxcore",
+      "bech32_prefix": "fx",
+      "bech32_config": {
+        "bech32PrefixAccAddr": "fx",
+        "bech32PrefixAccPub": "fxpub",
+        "bech32PrefixValAddr": "fxvaloper",
+        "bech32PrefixValPub": "fxvaloperpub",
+        "bech32PrefixConsAddr": "fxvalcons",
+        "bech32PrefixConsPub": "fxvalconspub"
+      },
+      "slip44": 60,
+      "fees": {
+        "fee_tokens": [
+          {
+            "denom": "FX",
+            "fixed_min_gas_price": 4000000000000,
+            "low_gas_price": 4000000000000,
+            "average_gas_price": 4200000000000,
+            "high_gas_price": 5000000000000
+          }
+        ]
+      },
+      "staking": {
+        "staking_tokens": [
+          {
+            "denom": "FX"
+          }
+        ]
+      },
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://fx-json.functionx.io"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://fx-rest.functionx.io"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "tx_page": "https://starscan.io/fxcore/tx/${txHash}"
+        }
+      ],
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
+    },
+    {
+      "chain_name": "nomic",
+      "status": "live",
+      "network_type": "mainnet",
+      "pretty_name": "Nomic",
+      "chain_id": "nomic-stakenet-3",
+      "bech32_prefix": "nomic",
+      "bech32_config": {
+        "bech32PrefixAccAddr": "nomic",
+        "bech32PrefixAccPub": "nomic",
+        "bech32PrefixConsAddr": "nomic",
+        "bech32PrefixConsPub": "nomic",
+        "bech32PrefixValAddr": "nomic",
+        "bech32PrefixValPub": "nomic"
+      },
+      "slip44": 118,
+      "fees": {
+        "fee_tokens": [
+          {
+            "denom": "unom",
+            "low_gas_price": 0,
+            "average_gas_price": 0,
+            "high_gas_price": 0
+          }
+        ]
+      },
+      "staking": {
+        "staking_tokens": [
+          {
+            "denom": "unom"
+          }
+        ],
+        "lock_duration": {
+          "time": "1209600s"
+        }
+      },
+      "description": "The superior way to use Bitcoin in Cosmos DeFi. Use IBC to securely and efficiently bridge your BTC to Osmosis and more.",
+      "apis": {
+        "rpc": [
+          {
+            "address": "https://stakenet-rpc.nomic.io:2096"
+          }
+        ],
+        "rest": [
+          {
+            "address": "https://app.nomic.io:8443"
+          }
+        ]
+      },
+      "explorers": [
+        {
+          "tx_page": "https://bigdipper.live/nomic/transactions/${txHash}"
+        }
+      ],
+      "features": ["ibc-go", "ibc-transfer"]
     }
   ]
 }
