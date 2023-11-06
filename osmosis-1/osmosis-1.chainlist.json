@@ -5977,7 +5977,7 @@
       },
       "explorers": [
         {
-          "tx_page": "https://vota-explorer.dorafactory.org/dora/tx/${txHash}"
+          "tx_page": "https://vota-explorer.dorafactory.org/doravota/tx/${txHash}"
         }
       ],
       "features": [
